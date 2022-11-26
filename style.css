@@ -1,3 +1,25 @@
-h1, h2 {
+h1,
+h2 {
   font-family: Lato;
+}
+
+#initConetent {
+  font-size: 45px;
+}
+
+#externalStyles {
+  color: orange;
+}
+
+.bg-dark {
+  background-color: cadetblue;
+  color: white;
+  padding: 5px;
+}
+
+h1 {
+  background-color: crimson;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
 }
