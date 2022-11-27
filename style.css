@@ -68,7 +68,60 @@ table tbody tr:nth-child(odd) {
 }
 
 .my-input:focus {
-  /* box-shadow:  10px 10px 5px 0px rgba(0,0,0,0.75); */
-
   border: 2px solid blue !important;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+#perfCSS {
+  padding: 30px;
+  margin: 30px;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+.visible {
+  visibility: visible;
+}
+
+.in-visible {
+  visibility: hidden;
+}
+
+.d-flex {
+  display: flex;
+  height: 500px;
+  border: 1px dashed crimson;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-item {
+  min-width: 200px;
+  height: 200px;
+  border: 1px dashed blue;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
 }
