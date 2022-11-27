@@ -63,10 +63,12 @@ table tbody tr:nth-child(odd) {
   border: 2px solid green;
   border-radius: 5px;
 }
+.my-input {
+  outline: none;
+}
 
 .my-input:focus {
   /* box-shadow:  10px 10px 5px 0px rgba(0,0,0,0.75); */
 
-  border: unset;
-  /* // 2px solid blue !important; */
+  border: 2px solid blue !important;
 }
